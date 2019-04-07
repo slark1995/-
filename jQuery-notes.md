@@ -53,6 +53,10 @@ $(function(){
 ***
 
 
+
+
+
+
 ## jQuery 选择器
 jQuery 选择器允许您对 HTML 元素组或单个元素进行操作。
 ***
@@ -143,6 +147,11 @@ $("tr:even")  |  选取偶数位置的 《tr》 元素
 <script src="my_jquery_functions.js"></script>
 </head>
 ```
+***
+
+
+
+
 
 ## jQuery 事件
 jQuery 是为事件处理特别设计的。
