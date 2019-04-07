@@ -54,7 +54,7 @@ $(function(){
 
 
 
-
+<br>
 
 
 ## jQuery 选择器
@@ -150,7 +150,7 @@ $("tr:even")  |  选取偶数位置的 《tr》 元素
 ***
 
 
-
+<br>
 
 
 ## jQuery 事件
