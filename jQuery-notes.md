@@ -10,6 +10,8 @@ jQuery 语法是通过选取 HTML 元素，并对选取的元素执行某些操�
 - 美元符号定义 jQuery
 - 选择符（selector）"查询"和"查找" HTML 元素
 - jQuery 的 action() 执行对元素的操作
+
+
 实例:
 
 - $(this).hide() - 隐藏当前元素
