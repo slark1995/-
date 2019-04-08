@@ -4,6 +4,11 @@
 
 $\color{red}{红色字}$
 
+
+
+<font color=#00ffff size=72> color=#00ffff </font>
+
+
 通过 jQuery，您可以选取（查询，query） HTML 元素，并对它们执行"操作"（actions）。
 ***
 
