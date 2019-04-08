@@ -2,6 +2,8 @@
 
 <font color=#FF7F50>我是蓝色</font>
 
+$\color{red}{红色字}$
+
 通过 jQuery，您可以选取（查询，query） HTML 元素，并对它们执行"操作"（actions）。
 ***
 
