@@ -187,3 +187,33 @@ mouseleave  |  hover  |  blur  |  unload（已废除）
 在 jQuery 中，大多数 DOM 事件都有一个等效的 jQuery 方法。
 
 页面中指定一个点击事件：
+```javascript
+$("p").click();
+```
+下一步是定义什么时间触发事件 (?我的理解是事件触发后执行什么)。您可以通过一个事件函数实现：
+
+``` javascript
+$("p").click(function(){
+    // 动作触发后执行的代码!!
+});
+```
+### 常用的 jQuery 事件方法
+**$(document).ready()**
+$(document).ready() 方法允许我们在文档完全加载完后执行函数。该事件方法在 jQuery 语法 章节中已经提到过。
+
+**click()**
+click() 方法是当按钮点击事件被触发时会调用一个函数。
+
+该函数在用户点击 HTML 元素时执行。
+
+在下面的实例中，当点击事件在某个 <p> 元素上触发时，隐藏当前的 <p> 元素：
+```javascript
+$("p").click(function(){
+    $(this).hide();
+});
+```
+**hover()**
+hover()方法用于模拟光标悬停事件。
+
+当鼠标移动到元素上时，会触发指定的第一个函数(mouseenter);当鼠标移出这个元素时，会触发指定的第二个函数(mouseleave)。
+
