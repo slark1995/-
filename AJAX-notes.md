@@ -80,13 +80,18 @@ function loadXMLDoc()
 ### MAKING REQUESTS
 Use JS to make an HTTP request and get the content
 
-Old school: new XMLHttpRequest()
-Modern: Fetch API
+- Old school: new XMLHttpRequest()
+- Modern: Fetch API
+
 new Request("some-url");
+
 Promises!
+
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
-**做http请求来获取数据，以前的方法是用XMLHttpRequest()，现在用Fetch API**
+**NOTE : 做http请求来获取数据，以前的方法是用XMLHttpRequest()，现在用Fetch API**
+
+下面先讲以前的XMLHttpRequest()方法
 
 
 
@@ -101,7 +106,6 @@ XMLHttpRequest 用于在后台与服务器交换数据。这意味着可以在�
 
 #### 创建 XMLHttpRequest 对象
 所有现代浏览器均内建 XMLHttpRequest 对象。
-**创建 XMLHttpRequest 对象的语法：**
 
-variable=new XMLHttpRequest();
+**创建 XMLHttpRequest 对象的语法：** variable=new XMLHttpRequest();
 
