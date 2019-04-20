@@ -12,10 +12,10 @@ AJAX = Asynchronous JavaScript (and XML)（异步的 JavaScript (和 XML)）。
 - AJAX 不需要任何浏览器插件，但需要用户允许JavaScript在浏览器上执行。
 
 - AJAX DISADVANTAGES (缺点) ：
-   - You have to manage History, Back button, Bookmarks in JS
-   - Security: browsers heavily restrict AJAX to prevent abuse
-      - Same-Origin Policy
-   - Even more HTTP requests, CPU and RAM
+- You have to manage History, Back button, Bookmarks in JS
+- Security: browsers heavily restrict AJAX to prevent abuse
+- Same-Origin Policy
+- Even more HTTP requests, CPU and RAM
 
 ---
 
@@ -89,6 +89,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 **做http请求来获取数据，以前的方法是用XMLHttpRequest()，现在用Fetch API**
 
 
+
 ### AJAX 创建 XMLHttpRequest 对象 
 XMLHttpRequest 是 AJAX 的基础。
 
@@ -100,7 +101,6 @@ XMLHttpRequest 用于在后台与服务器交换数据。这意味着可以在�
 
 #### 创建 XMLHttpRequest 对象
 所有现代浏览器均内建 XMLHttpRequest 对象。
-
 **创建 XMLHttpRequest 对象的语法：**
 
 variable=new XMLHttpRequest();
