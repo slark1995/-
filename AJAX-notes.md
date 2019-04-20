@@ -86,7 +86,7 @@ new Request("some-url");
 Promises!
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
-* 做http请求来获取数据，以前的方法是用XMLHttpRequest()，现在用Fetch API 
+*** 做http请求来获取数据，以前的方法是用XMLHttpRequest()，现在用Fetch API ***
 
 
 
