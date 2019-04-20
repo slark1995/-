@@ -77,12 +77,31 @@ function loadXMLDoc()
 
 ----
 
-### AJAX 创建 XMLHttpRequest 对象
+### MAKING REQUESTS
+Use JS to make an HTTP request and get the content
+
+Old school: new XMLHttpRequest()
+Modern: Fetch API
+new Request("some-url");
+Promises!
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
+* 做http请求来获取数据，以前的方法是用XMLHttpRequest()，现在用Fetch API 
+
+
+
+### AJAX 创建 XMLHttpRequest 对象 
 XMLHttpRequest 是 AJAX 的基础。
 
 #### XMLHttpRequest 对象
 
-所有现代浏览器均支持 XMLHttpRequest 对象（IE5 和 IE6 使用 ActiveXObject）。
+所有现代浏览器均支持 XMLHttpRequest 对象（IE5 和 IE6 使用 ActiveXObject。
 
 XMLHttpRequest 用于在后台与服务器交换数据。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新
+
+#### 创建 XMLHttpRequest 对象
+所有现代浏览器均内建 XMLHttpRequest 对象。
+***创建 XMLHttpRequest 对象的语法：***
+
+variable=new XMLHttpRequest();
 
