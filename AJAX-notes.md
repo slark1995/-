@@ -92,7 +92,8 @@ https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 **NOTE : 做http请求来获取数据，以前的方法是用XMLHttpRequest()，现在用Fetch API**
 
 下面先讲以前的XMLHttpRequest()方法
-
+<br>
+<br>
 
 
 ### AJAX 创建 XMLHttpRequest 对象 
