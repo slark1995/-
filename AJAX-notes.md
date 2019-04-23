@@ -78,6 +78,9 @@ function loadXMLDoc()
 ----
 
 ### MAKING REQUESTS
+
+首先要实现AJAX,就要从服务器拿数据，就要做request. 如何做request呢，有两种方法，以前的方法是用XMLHttpRequest()，现在用Fetch API
+
 Use JS to make an HTTP request and get the content
 
 - Old school: new XMLHttpRequest()
@@ -88,8 +91,6 @@ new Request("some-url");
 Promises!
 
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
-
-**NOTE : 做http请求来获取数据，以前的方法是用XMLHttpRequest()，现在用Fetch API**
 
 下面先讲以前的XMLHttpRequest()方法
 <br>
@@ -110,3 +111,18 @@ XMLHttpRequest 用于在后台与服务器交换数据。这意味着可以在�
 
 **创建 XMLHttpRequest 对象的语法：** variable=new XMLHttpRequest();
 
+**实例**
+```javascript
+var xmlhttp; 
+//检测浏览器是否支持
+if (window.XMLHttpRequest)
+{
+//  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+xmlhttp=new XMLHttpRequest();
+}
+else
+{
+// IE6, IE5 浏览器执行代码
+xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+}
+```
